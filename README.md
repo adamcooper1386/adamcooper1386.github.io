@@ -1,4 +1,3 @@
-''' rust
 use std::fmt;
 use std::process::Command;
 
@@ -83,4 +82,4 @@ fn main() {
     for app in apps {
         build_and_push(app);
     }
-}```
+}
